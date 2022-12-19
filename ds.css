@@ -1,0 +1,102 @@
+body {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    margin: 15px;
+    background-color: #e7e7e7;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.grid-header {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+}
+
+.i1 {
+    grid-column: 1/span 2;
+}
+
+.elem {
+    text-align: right;
+}
+
+.gray-bg {
+    background-color: #d2d2d2;
+}
+
+.container-1 {
+    display: grid;
+    height: 800px;
+    background-color: #d2d2d2;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.item-cont-1 {
+    text-align: center;
+    padding-top: 25%;
+    font-size: 30px;
+}
+
+.container-2 {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 15px 15px;
+}
+
+.two__row {
+    grid-row: 1/span 2;
+}
+
+.first__column {
+    grid-column-start: 1
+}
+
+.second__column {
+    grid-column-start: 2
+}
+
+.third__column {
+    grid-column-start: 3;
+}
+
+.item-cont-2-large {
+    width: 500px;
+    height: 615px;
+}
+
+.row-3{
+    grid-row-start: 1;
+}
+
+.item-cont-2 {
+    width: 500px;
+    height: 300px;
+}
+
+.container-3{
+    width: 60%;
+    margin: 50px auto 0;
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    gap: 15px 15px;
+}
+.sell-item{
+    height: 400px;
+}
+
+.grid-4{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 15px 15px;
+}
+
+.item-4{
+    width: 400px;
+    height: 500px;
+    background-color: #d2d2d2;
+}
